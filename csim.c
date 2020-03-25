@@ -171,9 +171,9 @@ void parse_param(int argc, char *argv[]) {
             case 'E':
                 E = atoi(optarg);
                 break;
-                        case 'b':
-                                b = atoi(optarg);
-                                B = 1 << b;
+            case 'b':
+                b = atoi(optarg);
+                B = 1 << b;
                 break;
             case 't':
                 file = optarg;
